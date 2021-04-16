@@ -96,3 +96,9 @@ print(type3, "\t \t", Quiz3_HRbeg, "\t",  Quiz3_mid, "\t",  Quiz3_HRend, "|\t", 
 print(type4, "\t", Resting_HRbeg, "\t",  Resting_HRmid, "\t",  Resting_HRend, "|\t",  Resting_HRbegHRV,  "\t", Resting_midHRV,  "\t", Resting_HRendHRV, "\t|", Resting_HRAVG )
 print(type5, "\t", Control_HRbeg, "\t",  Control_HRmid, "\t",  Control_HRend, "|\t",  Control_HRbegHRV, "\t", Control_midHRV, "\t",  Control_HRendHRV, "\t|", Control_HRAVG )
 
+print("Peak Hr Quiz 1 = %", round(max(HRvsTQuiz1.Heartrate)))
+print("Peak Hr Quiz 2 = %", round(max(HRvsTQuiz2.Heartrate)))
+print("Peak Hr Quiz 3 = %", round(max(HRvsTQuiz3.Heartrate)))
+print("Peak Hr Resting = %", round(max(HRvsTResting.Heartrate)))
+print("Peak Hr Control = %", round(max(HRvsTControl.Heartrate)))
+
