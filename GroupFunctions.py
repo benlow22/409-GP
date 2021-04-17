@@ -60,7 +60,7 @@ def plotHR(file,trial,start,end,xrange,peak):
     plt.figure()
     plt.title('HR for ' + trial)
     plt.plot(HRvsT.t, HRvsT.Heartrate)
-    plt.xlabel('Time [s] FUCK THIS') 
+    plt.xlabel('Time [s]') 
     plt.ylabel('HR [BPM]')
     plt.ylim(xrange)
     plt.axvline(start, color = 'red', label = "start time")
